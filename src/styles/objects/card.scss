@@ -1,0 +1,17 @@
+.card {
+    padding: 57px 50px 15px 50px;
+    height: $height;
+    width: $width;
+    box-shadow: 0 4px 8px 0 $shadow;
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 $shadow;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
