@@ -4,6 +4,13 @@
     width: $width;
     box-shadow: 0 4px 8px 0 $shadow;
     transition: 0.3s;
+    background-color: white;
+    position: absolute; 
+    margin: auto; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
 }
 
 /* On mouse-over, add a deeper shadow */
