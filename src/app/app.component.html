@@ -1,158 +1,19 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <!DOCTYPE html>
 <html>
-<head>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-
-  <header>
-
-    <div class="page-navbar inner">
-      <div>
-        <nav>
-          <ul class="page-navbar logo2">
-            <a><span class="page-navbar logo1">RS</span>card</a>
-          </ul>
-          <ul>
-            <li style="margin-right: 7px;"><a href="#other">Other</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#calendar">Calendar</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#about">About</a></li>
-          </ul>
-        </nav>
-      </div>
+  <head>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    <header>
+      <app-navbar></app-navbar>
+      <div class="page-header"></div>
+      <div class="color-overlay"></div>
+    </header>
+    <div class="about">
+      <app-card></app-card>
     </div>
-
-    <div class="page-header"></div>
-    <div class="color-overlay"></div>
-  </header>
-
-  <div class="about">
-    <div class="card">
-      <div fxFlex="45">  
-        <div><img src="https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-avatar"></div>
-      </div>
-
-      <div fxFlex="55">
-        <div class="profile-header">
-          <h1 class="profile-title">
-            <span>I'm</span> a Dog
-          </h1>
-          <h2>
-            Best friend
-          </h2>
-        </div> 
-        <ul>
-          <li class="card-data">
-            <strong class="title">Age</strong>
-            <span class="data">4</span>
-          </li>
-          <li class="card-data">
-            <strong class="title">Adress</strong>
-            <span class="data">23232, Belgium, Brussels, Liutte 27, BE</span>
-          </li>
-          <li class="card-data">
-            <strong class="title">E-mail</strong>
-            <span class="data">dog@company.com</span>
-          </li>
-          <li class="card-data">
-            <strong class="title">Phone</strong>
-            <span class="data">+1 256 254 84 56</span>
-          </li>
-          <li class="card-data">
-            <strong class="title">Freelance</strong>
-            <span class="data">till March 25, 2018</span>
-          </li>
-          <li>
-            <strong class="card-data">
-              <span class="vacation-button">Vacation</span>
-              <span class="data">
-                till April 15, 2018
-              </span>
-            </strong>
-          </li>
-        </ul> 
-      </div> 
-      <!--Social Bar-->
-      <div class="social-bar" style="position: absolute; margin: auto; right: 0; left: 0; margin-top: 385px">
-          <span fxFlex="24"></span>
-          <ul fxLayout="row" fxLayoutAlign="space-evenly center" fxFlex="50">
-            <li>
-              <a href="https://twitter.com" target="_blank">
-                <i class="social-bar-icons fa fa-twitter"></i> 
-              </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com" target="_blank">
-                  <i class="social-bar-icons fa fa-facebook"></i> 
-                </a>
-            </li>
-            <li>
-                <a href="https://dribbble.com" target="_blank">
-                  <i class="social-bar-icons fa fa-dribbble"></i> 
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com" target="_blank">
-                  <i class="social-bar-icons fa fa-linkedin"></i> 
-                </a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank">
-                  <i class="social-bar-icons fa fa-instagram"></i> 
-                </a>
-            </li>
-            <li>
-                <a href="https://www.google.com" target="_blank">
-                  <i class="social-bar-icons fa fa-google"></i> 
-                </a>
-            </li>
-          </ul>
-        </div>
-    </div>
-
-    <!-- <div class="social-bar" style="position: absolute; margin: auto; right: 0; left: 0; margin-top: 180px">
-      <span fxFlex="24"></span>
-      <ul fxLayout="row" fxLayoutAlign="space-evenly center" fxFlex="50">
-        <li>
-          <a href="https://twitter.com" target="_blank">
-            <i class="social-bar-icons fa fa-twitter"></i> 
-          </a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com" target="_blank">
-              <i class="social-bar-icons fa fa-facebook"></i> 
-            </a>
-        </li>
-        <li>
-            <a href="https://dribbble.com" target="_blank">
-              <i class="social-bar-icons fa fa-dribbble"></i> 
-            </a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com" target="_blank">
-              <i class="social-bar-icons fa fa-linkedin"></i> 
-            </a>
-        </li>
-        <li>
-            <a href="https://instagram.com" target="_blank">
-              <i class="social-bar-icons fa fa-instagram"></i> 
-            </a>
-        </li>
-        <li>
-            <a href="https://www.google.com" target="_blank">
-              <i class="social-bar-icons fa fa-google"></i> 
-            </a>
-        </li>
-      </ul>
-    </div> -->
-  </div>
-</body>
+  </body>
 </html>
